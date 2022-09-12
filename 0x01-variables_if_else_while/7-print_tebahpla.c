@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - 
+ * main - 7-print_tebahpla.c
  *
- * Description: 
+ * Description: 7-print_tebahpla.c
  * Return: 0
  */
 int main(void)

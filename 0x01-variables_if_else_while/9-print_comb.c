@@ -3,7 +3,7 @@
 /**
  * main - 9-print_comb.c
  *
- * Description: 9-print_comb.c 
+ * Description: 9-print_comb.c
  * Return: 0
  */
 

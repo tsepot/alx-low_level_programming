@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
- * main -
- * Description:
+ * main - 4-print_alphabt.c
+ * Description: 4-print_alphabt.c
  * Return: 0
  */
 

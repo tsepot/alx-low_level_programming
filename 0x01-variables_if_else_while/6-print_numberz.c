@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
- * main - 
+ * main - 6-print_numberz.c
  *
- * Description:
+ * Description: 6-print_numberz.c
  * Return: 0
  */
 int main(void)

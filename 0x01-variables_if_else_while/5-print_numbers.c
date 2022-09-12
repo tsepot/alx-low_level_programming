@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
- * main - 
+ * main - 5-print_numbers.c
  *
- * Description:
+ * Description: 5-print_numbers.c
  * Return: 0
  */
 
