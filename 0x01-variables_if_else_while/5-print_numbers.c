@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - print_numbers.c
  *
  * Description: print_numbers.c
