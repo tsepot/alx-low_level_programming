@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - print_numberz.c
  *
  * Description: print_numberz.c
