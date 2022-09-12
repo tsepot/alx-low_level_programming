@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print_base16.c 
+ * main - print_base16.c
  *
  * Description: print_base16.c
  * Return: 0
