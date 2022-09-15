@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * main - check the code.
+ * main - Entry point
  *
- * Description: printing alphabet
- * Return: Always 0.
+ * Description: 'the program's description'
+ *
+ * Return: Always 0 (Success)
  */
 
 void print_alphabet(void)
