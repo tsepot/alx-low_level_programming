@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * main - check the code.
+ * _islower - Entry point
  *
+ * Description: 'the program's description'
  * Return: Always 0.
  */
 
