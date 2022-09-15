@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * main - check the code.
+ * _abs - Entry point
+ * @x: The input character to check
  *
  * Return: Always 0.
  */

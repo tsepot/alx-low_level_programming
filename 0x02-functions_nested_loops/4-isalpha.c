@@ -3,6 +3,7 @@
  * _isalpha - Entry point
  *
  * Description: 'the program's description'
+ * @c: The input character to check
  *
  * Return: Always 0.
  */

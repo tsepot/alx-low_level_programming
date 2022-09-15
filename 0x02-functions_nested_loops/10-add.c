@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- * main - check the code.
+ * add - check the code.
  *
+ * @n1: first value
+ * @n2: second value
  * Return: Always 0.
  */
 

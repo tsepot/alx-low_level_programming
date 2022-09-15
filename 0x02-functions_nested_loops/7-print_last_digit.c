@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * main - check the code.
+ * print_last_digit - Entry point
  *
+ * @x: The input character to check
  * Return: Always 0.
  */
 
