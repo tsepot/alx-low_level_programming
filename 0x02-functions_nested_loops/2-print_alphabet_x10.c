@@ -1,13 +1,15 @@
 #include "main.h"
 /**
- * main - check the code.
+ * main - Entry point
  *
- * Return: Always 0.
+ * Description: 'the program's description'
+ *
+ * Return: Always 0 (Success)
  */
 
 void print_alphabet_x10(void)
 {
-	int l ;
+	int l;
 	int n = 0;
 
 	while (n < 10)
