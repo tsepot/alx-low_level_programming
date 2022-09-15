@@ -2,6 +2,7 @@
 /**
  * main - check the code.
  *
+ * Description: it is what it is
  * Return: Always 0.
  */
 
