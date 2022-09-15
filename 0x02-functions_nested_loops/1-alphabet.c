@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * main - check the code.
- *
- * Description: it is what it is
+ * 
+ * Description: printing alphabet
  * Return: Always 0.
  */
 
