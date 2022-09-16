@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * main - check the code.
+ * print_square - check the code.
  *
+ * @size: input number
  * Return: Always 0.
  */
 void print_square(int size)
