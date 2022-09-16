@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - start code
  *
@@ -13,6 +12,7 @@ int main(void)
 	printf("Infinite loop incoming :(\n");
 
 	i = 0;
+	
 /*
  *	while (i < 10)
  *	{
