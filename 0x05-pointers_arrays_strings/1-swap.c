@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - check the code
+ * swap_int - check the code
  *
  * @a: the value of int a
  * @b: the value of int b 
