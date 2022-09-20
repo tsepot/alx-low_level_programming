@@ -3,7 +3,7 @@
 /**
  * print_rev - check the code
  *
- * @s: the value of int 
+ * @s: the value of int
  * Return: Always 0
  */
 

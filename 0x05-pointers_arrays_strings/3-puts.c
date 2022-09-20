@@ -3,7 +3,7 @@
 /**
  * _puts - check the code
  *
- * @str: the value of int 
+ * @str: the value of int
  * Return: Always 0
  */
 
