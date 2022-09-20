@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strcpy - check the code
@@ -9,7 +8,7 @@
  * Return: Always 0
  */
 
-void *_strcpy(char *dest, char *src)
+void _strcpy(char *dest, char *src)
 {
 	int x;
 
@@ -18,5 +17,5 @@ void *_strcpy(char *dest, char *src)
 		*(dest + x) = *(src + x);
 	}
 	*(dest + x) = '\0';
-	return (dest)
+	return (dest);
 }
