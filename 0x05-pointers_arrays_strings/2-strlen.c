@@ -3,7 +3,7 @@
 /**
  * _strlen - check the code
  *
- * @s: the value of int 
+ * @s: the value of int
  * Return: Always 0
  */
 
@@ -15,5 +15,5 @@ int _strlen(char *s)
 	{
 
 	}
-	return(x);
+	return( x );
 }
