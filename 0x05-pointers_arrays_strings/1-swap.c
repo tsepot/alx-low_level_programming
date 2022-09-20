@@ -5,7 +5,7 @@
  * swap_int - check the code
  *
  * @a: the value of int a
- * @b: the value of int b 
+ * @b: the value of int b
  * Return: Always 0
  */
 
