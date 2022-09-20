@@ -3,7 +3,7 @@
 /**
  * rev_string - check the code
  *
- * @s: the value of int	
+ * @s: the value of int
  * Return: Always 0
  */
 
@@ -16,7 +16,6 @@ void rev_string(char *s)
 
 	for (x = '\0'; s[x] != 0; x++)
 	{
-	
 	}
 	y = 0;
 	for (x = x - 1; x > y; y++)
