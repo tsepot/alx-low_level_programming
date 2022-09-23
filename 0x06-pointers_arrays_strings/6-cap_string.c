@@ -15,6 +15,6 @@ char *cap_string(char *s)
 	for (x = 0; s[x] != '\0'; x++)
 		if (x == 0 || *(s + x) == ' ' || *(s + x) == '.' || *(s + x) == '\n')
 			if (*(s + x) >= 'a' && *(s + x) <= 'z')
-				*(s + x) -= 32;
+				*(s + x) = *(s + x) - ' ';
 	return (s);
 }
