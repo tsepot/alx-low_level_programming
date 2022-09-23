@@ -16,10 +16,17 @@ char *leet(char *s)
 	char *numbers = "4433001177";
 
 	while (*(s + x) != '\0')
+	{
 		while (*(letters + y) != '\0')
+		{
 			if (*(s + x) == *(letters + y))
+			{
 				*(s + x)  = *(numbers + y);
+			}
+			y++;
+		}
 		y = 0;
 		x++;
+	}
 	return (s);
 }
