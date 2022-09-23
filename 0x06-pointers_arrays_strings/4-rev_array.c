@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - entry point
+ * reverse_array - entry point
  *
  * @a: a input
  * @n: n input
