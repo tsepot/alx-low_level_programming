@@ -13,22 +13,22 @@ char *cap_string(char *s)
 	int x, i, cap = 32;
 	int separators[] = {',', ';', '.', '?', '"','(', ')', '{', '}', ' ', '\n', '\t'};
 
-	for (i = 0; n[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (n[i] >= 'a' && n[i] <= 'z')
+		if (s[i] >= 'a' && s[i] <= 'z')
 		{
-			n[i] = n[i] - cap;
+			s[i] = s[i] - cap;
 		}
 		cap = 0;
 
 		for (x = 0; x <= 12; x++)
 		{
-			if (n[i] == separators[x])
+			if (s[i] == separators[x])
 			{
 				x = 12;
 				cap = 32;
 			}
 		}
 	}
-	return (n)
+	return (s);
 }
