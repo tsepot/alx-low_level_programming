@@ -10,31 +10,25 @@
 
 char *cap_string(char *s)
 {
-	int x;
+	int x, i, cap = 32;
+	int separators[] = {',', ';', '.', '?', '"','(', ')', '{', '}', ' ', '\n', '\t'};
 
-	while (*(s + x) != '\0')
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		if (x == 0)
-			*(s + x) = *(s + x) - ' ';
-		if (*(s + x) == ' ' || *(s + x) == '\t')
-			x++;
-		else if (*(s + x) == '\n' || *(s + x) == ',')
-			x++;
-		else if (*(s + x) == ';' || *(s + x) == '.')
-			x++;
-		else if (*(s + x) == '!' || *(s + x) == '?')
-			x++;
-		else if (*(s + x) == '"' || *(s + x) == '(')
-			x++;
-		else if (*(s + x) == ')' || *(s + x) == '{')
-			x++;
-		else if (*(s + x) == '}')
-			x++;
-		if (*(s + x) >= 97 && *(s + x) <= 122)
+		if (n[i] >= 'a' && n[i] <= 'z')
 		{
-			*(s + x) = *(s + x) - ' ';
-			x++;
+			n[i] = n[i] - cap;
+		}
+		cap = 0;
+
+		for (x = 0; x <= 12; x++)
+		{
+			if (n[i] == separators[x])
+			{
+				x = 12;
+				cap = 32;
+			}
 		}
 	}
-	return (s);
+	return (n)
 }
