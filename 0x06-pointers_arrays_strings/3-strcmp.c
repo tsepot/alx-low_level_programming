@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcmp - entry point 
+ * _strcmp - entry point
  *
  * @s1: s1 input
  * @s2: s2 input
