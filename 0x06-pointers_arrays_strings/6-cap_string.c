@@ -13,6 +13,7 @@ char *cap_string(char *s)
 	int x;
 
 	while (*(s + x) != '\0')
+	{
 		if (x == 0)
 			*(s + x) = *(s + x) - ' ';
 		if (*(s + x) == ' ' || *(s + x) == '\t')
@@ -30,7 +31,10 @@ char *cap_string(char *s)
 		else if (*(s + x) == '}')
 			x++;
 		if (*(s + x) >= 97 && *(s + x) <= 122)
+		{
 			*(s + x) = *(s + x) - ' ';
 			x++;
+		}
+	}
 	return (s);
 }
