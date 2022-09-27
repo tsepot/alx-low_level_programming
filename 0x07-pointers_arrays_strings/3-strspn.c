@@ -4,7 +4,7 @@
  * _strspn - entry point
  *
  * @s: s value
- * @c: b value
+ * @accept: b value
  *
  * Return: s
  */
@@ -25,14 +25,12 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				z = 1;
 			}
-			y++;
-			
+			y++;	
 		}
 		y = 0;
 		if (z == 0)
 		{
-			break;
-		
+			break;	
 		}
 		x++;
 		s++;

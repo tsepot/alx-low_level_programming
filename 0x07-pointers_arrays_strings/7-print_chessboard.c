@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * print_chessboard - entry point
  *
  * @a: a value
@@ -24,6 +23,5 @@ void print_chessboard(char (*a)[8])
 			y++;
 		}
 		x++;
-	
 	}
 }

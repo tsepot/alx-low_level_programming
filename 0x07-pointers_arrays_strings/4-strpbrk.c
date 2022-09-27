@@ -24,7 +24,6 @@ char *_strpbrk(char *s, char *accept)
 				y = 1;
 			}
 			x++;
-			
 		}
 		x = 0;
 		if (y == 1)
