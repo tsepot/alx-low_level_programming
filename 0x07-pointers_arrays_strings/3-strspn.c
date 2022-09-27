@@ -25,12 +25,12 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				z = 1;
 			}
-			y++;	
+			y++;
 		}
 		y = 0;
 		if (z == 0)
 		{
-			break;	
+			break;
 		}
 		x++;
 		s++;
