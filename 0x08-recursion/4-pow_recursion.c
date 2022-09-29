@@ -2,7 +2,7 @@
 
 /**
  * _pow_recursion - entrypoint
- * 
+ *
  * @x: x value
  * @y: y value
  * Return: Always 0.

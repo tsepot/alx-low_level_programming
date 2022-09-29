@@ -2,7 +2,7 @@
 
 /**
  * is_prime_number - entrypoint
- * 
+ *
  * @n: n value
  *
  * Return: Always 0.
