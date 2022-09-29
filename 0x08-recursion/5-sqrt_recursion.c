@@ -2,7 +2,7 @@
 
 /**
  * _sqrt_recursion - entrypoint
- * 
+ *
  * @n: n value
  *
  * Return: Always 0.
