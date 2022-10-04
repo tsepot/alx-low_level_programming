@@ -9,7 +9,19 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
+	int x;
+
+	for (x = 0; x < argc; x++)
+	{
+		if (argc == 1)
+		{
+			printf("%s\n", argv[x]);
+		}
+		else
+		{
+			break;
+		}
+	}
 	return (0);
 }
 
