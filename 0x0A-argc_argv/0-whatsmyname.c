@@ -4,6 +4,7 @@
  * main - entrpoint
  *
  * @argv: array
+ * @argc: int
  * Return: 0
  */
 
