@@ -14,27 +14,19 @@ int main(int argc, char *argv[])
 {
 	int x, i, sum = 0;
 
-	if (argc > 1)
+	for (x = 1; x < argc; x++)
 	{
-		for (x = 1; x < argc; x++)
+		for (i = 0; argv[x][i]; i++)
 		{
-			for (i = 0; argv[x][i]; i++)
+			if (argv[x][i] < '0' || argv[x][i] > '9')
 			{
-				if (argv[x][i] < '0' || argv[x][i] > '9')
-				{
-					printf("Error\n");
-					return (1);
-				}
+				printf("Error\n");
+				return (1);
 			}
-			sum = sum + atoi(argv[x]);
 		}
-		printf("%d\n", sum);
+		sum = sum + atoi(argv[x]);
 	}
-	else
-	{
-		printf("Error\n");
-		return (1);
-	}
+	printf("%d\n", sum);
 	return (0);
 }
 
